@@ -8,8 +8,8 @@ type Authorize = {
 }
 
 const Authorization = ({ onAuthorize }: Authorize) => {
-    const [idInstance, setIdInstance] = useState("1103183990");
-    const [apiTokenInstance, setApiTokenInstance] = useState("ee6f91e600ed4f108868c073f74775022614915dc8b94b0196");
+    const [idInstance, setIdInstance] = useState("");
+    const [apiTokenInstance, setApiTokenInstance] = useState("");
 
     const instanceAuthorization = () => {
         if (!idInstance || !apiTokenInstance) {
